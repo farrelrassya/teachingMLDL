@@ -113,17 +113,17 @@ TeachingMLDL/
 ## Installation
 
 Below are all the commands you need to run in one sequence:
-**1. Clone the Repository
-git clone https://github.com/your-username/TeachingMLDL.git
-cd TeachingMLDL
+-Clone the Repository
+-git clone https://github.com/farrelrassya/TeachingMLDL.git
+-cd TeachingMLDL
 
-**2. Create and Activate a Virtual Environment, Install Requirements
-conda create -n mldl python=3.9
-conda activate mldl
-pip install -r requirements.txt
+-Create and Activate a Virtual Environment, Install Requirements
+-conda create -n mldl python=3.9
+-conda activate mldl
+-pip install -r requirements.txt
 
-**3. Verify the Installation
-python -c "import torch; print(f'PyTorch version: {torch.__version__}')"
+-Verify the Installation
+-python -c "import torch; print(f'PyTorch version: {torch.__version__}')"
 
 
 ---
