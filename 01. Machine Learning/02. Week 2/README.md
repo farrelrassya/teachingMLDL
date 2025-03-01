@@ -17,9 +17,9 @@ Despite their long-standing history, Linear Models remain widely used in industr
 
 ### 2.1 Core Concept
 *Linear Regression* can be summarized by the following equation:
-\[
+$$
 y \approx w_0 + w_1 x_1 + w_2 x_2 + \dots + w_n x_n
-\]
+$$
 - \( y \) = The predicted target (a continuous value)
 - \( x_i \) = Input features
 - \( w_i \) = Model coefficients or weights
