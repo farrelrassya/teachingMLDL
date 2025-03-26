@@ -8,12 +8,11 @@ Welcome to the **TeachingMLDL** repository, a comprehensive educational resource
 ## Table of Contents  
 1. [Overview](#overview)  
 2. [Topics Covered](#topics-covered)  
-3. [Prerequisites](#prerequisites)  
-4. [Repository Structure](#repository-structure)  
-5. [Getting Started](#getting-started)  
-6. [Recommended Resources](#recommended-resources)  
-7. [Contributor](#contributor)  
-8. [License](#license)  
+3. [Prerequisites](#prerequisites)   
+4. [Getting Started](#getting-started)  
+5. [Recommended Resources](#recommended-resources)  
+6. [Contributor](#contributor)  
+7. [License](#license)  
 
 ---
 
@@ -78,53 +77,6 @@ The curriculum emphasizes both theoretical rigor and practical implementation, c
 3. **Tools**:  
    - Jupyter Notebook, PyCharm, or VS Code.  
    - Basic command-line usage (Git, Conda).  
-
----
-
-## Repository Structure  
-```plaintext
-TeachingMLDL/  
-├── lectures/                  # Lecture materials (PDF, LaTeX, Markdown)  
-│   ├── ml_basics/            # Intro to ML theory  
-│   └── dl_advanced/          # Advanced DL architectures  
-├── notebooks/                # Hands-on tutorials  
-│   ├── ml_workflows/         # Scikit-Learn pipelines  
-│   └── dl_frameworks/        # PyTorch/TensorFlow implementations  
-├── src/                      # Reusable code modules  
-│   ├── data_processing/      # Data loaders and transformers  
-│   └── models/               # Custom model architectures  
-├── assignments/              # Weekly problem sets  
-│   ├── coding_challenges/    # Algorithmic exercises  
-│   └── theory_questions/     # Mathematical proofs  
-├── projects/                 # Capstone projects  
-│   ├── image_classification/ # CNN-based projects  
-│   └── nlp/                 # Text generation/translation  
-├── datasets/                 # Curated datasets (CSV, HDF5, TFRecords)  
-│   ├── synthetic/            # Generated data for testing  
-│   └── real_world/           # Public datasets (e.g., MNIST, CIFAR-10)  
-├── docs/                     # Supplementary documentation  
-│   ├── cheatsheets/          # ML/DL quick references  
-│   └── research_papers/      # Seminal papers (PDFs)  
-├── environments/             # Conda/Pipenv configuration files  
-├── tests/                    # Unit and integration tests  
-├── LICENSE  
-└── requirements.txt          # Python dependencies
-```
-## Installation
-
-Below are all the commands you need to run in one sequence:
--Clone the Repository
--git clone https://github.com/farrelrassya/TeachingMLDL.git
--cd TeachingMLDL
-
--Create and Activate a Virtual Environment, Install Requirements
--conda create -n mldl python=3.9
--conda activate mldl
--pip install -r requirements.txt
-
--Verify the Installation
--python -c "import torch; print(f'PyTorch version: {torch.__version__}')"
-
 
 ---
 
