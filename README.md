@@ -1,4 +1,4 @@
-# TeachingMLDLD
+# TeachingMLDL
 **Machine Learning and Deep Learning Course Repository**  
 
 Welcome to the **TeachingMLDL** repository, a comprehensive educational resource for mastering Machine Learning (ML) and Deep Learning (DL). This repository provides structured materials, code implementations, and project-based learning to support academic and practical understanding of modern ML/DL methodologies.  
